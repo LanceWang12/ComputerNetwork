@@ -15,6 +15,17 @@
 
     <img src="https://i.imgur.com/avgF2NW.png" style="zoom:80%;" />
 
+## Implementation detail
+
+1. Step1: Client-Server architecture, Three way handshake, Sending a file
+2. Step2: Server can server more than one client
+3. Step3: Checksum, Using poisson distribution to simulate the packet loss
+4. Step4: Sending two segment with one ack
+5. Step5: Congestion control(slow start, congestion avoidance)
+6. Step6: Fast transmit
+7. Step7: Congestion control(fast recovery)
+8. Step8: Conncet with 100 client
+
 ## Code explanation
 
 <img src="https://i.imgur.com/HSbe6f0.png" style="zoom:90%;" />
